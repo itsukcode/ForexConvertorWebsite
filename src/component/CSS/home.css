@@ -1,0 +1,109 @@
+.back{
+    height : 3070px;
+    /* margin:0; */
+    /* filter: brightness(50%); */
+}
+
+.container-1{
+    font-family:arial;
+    color:white;
+    background-image : url("https://images.pexels.com/photos/1938360/pexels-photo-1938360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:680px;
+    padding-left:100px;
+    padding-top:1px;
+   -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 63%, 71% 89%, 0 100%, 0 0);
+clip-path: polygon(50% 0%, 100% 0, 100% 63%, 71% 89%, 0 100%, 0 0);
+}
+.head{
+    font-size:100px;
+    margin-top:150px;
+}
+.para{
+    font-size:30px;
+    margin-top:-40px;
+    color: wheat;
+    font-weight:bold
+
+}
+
+ .my-button {
+        padding: 10px 10px;
+        background-color: #ffffff;
+        color: black;
+        border-radius: 50px;
+        font-size: 25px;
+        cursor: pointer;
+        width: 340px; /* Set the desired width */
+        font-family:arial;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow:2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+        font-weight:bold
+
+      }
+
+.tradingview-box{
+    width:65%;
+    margin-top:30px;
+    box-shadow:2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+
+}
+.tradingview-widget{
+        box-shadow:2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+
+}
+.tradingview-box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:arial;
+    font-weight:bold;
+    color:white;
+    font-size:70px
+}
+.adjust{
+    box-shadow:2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+    padding-top:20px;
+    padding-bottom:30px;
+    background-color:#000000
+
+}
+
+.para-2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:arial;
+    /* font-weight:bold; */
+    padding-right:280px;
+    padding-left:280px;
+    text-align:center;
+    color:white;
+    font-size:20px
+
+}
+
+.head-3{
+    text-align:center;
+    font-size:70px
+
+}
+
+.tradingview-widget-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tradingview-widget-container-widget{
+    box-shadow:2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+    width:auto
+}

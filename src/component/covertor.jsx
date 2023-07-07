@@ -1,12 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
-import "./App.css"
-import Home from "./component/Home.jsx"
-// import CHART from "./chart.jsx"
-// import Table from "./table.jsx"
-// let tvScriptLoadingPromise;
+import "../App.css"
 
-const CurrencyConverter = () => {
+
+const Converter = () => {
 
     const [rates, setRates] = useState({});
     const [baseCurrency, setBaseCurrency] = useState('USD');
@@ -32,9 +29,7 @@ const CurrencyConverter = () => {
 
     return (
         <div>
-            <Home />
-            {/* <Table /> */}
-            {/* <CHART /> */}
+
             <div className="container" >
                 <h2>Currency Converter</h2>
                 <div>
@@ -68,4 +63,4 @@ const CurrencyConverter = () => {
     );
 };
 
-export default CurrencyConverter;
+export default Converter;
